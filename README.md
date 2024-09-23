@@ -1,1 +1,2 @@
 # ProyectoFarmacia
+Este proyecto es una aplicación de escritorio en C# utilizando Windows Forms para gestionar el inventario de una farmacia. Permite agregar productos con nombre, cantidad y precio, los cuales se almacenan en un inventario. Además, ofrece funcionalidades para eliminar productos seleccionados y actualizar la lista visualmente en un DataGridView, mostrando los datos en una tabla dentro de la interfaz.
