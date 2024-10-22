@@ -22,7 +22,8 @@ namespace ProyectoFarmacia
 
         public void EliminarProducto(int id)
         {
-            var producto = productos.Find(p => p.Id == id);
+            var producto = productos.FirstOrDefault(p => p.Id == id); // Busca el primer producto en la lista "productos" cuyo "Id" coincida con el "id" proporcionado.
+                                                                      // Si no encuentra ningún producto con ese "id", devuelve null.
             if (producto != null)
             {
                 productos.Remove(producto);
